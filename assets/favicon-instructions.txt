@@ -1,0 +1,21 @@
+# Favicon Instructions
+
+To create a proper favicon.ico file:
+
+1. Use the logo.svg file
+2. Convert to ICO format using online tools:
+   - https://favicon.io/favicon-converter/
+   - https://convertio.co/svg-ico/
+
+3. Generate multiple sizes:
+   - 16x16 (required)
+   - 32x32 (recommended)
+   - 48x48 (recommended)
+
+4. Replace this file with the generated favicon.ico
+
+## Alternative: Use PNG
+You can also use a PNG favicon by updating the HTML:
+```html
+<link rel="icon" type="image/png" href="assets/favicon.png">
+```
