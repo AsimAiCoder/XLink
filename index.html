@@ -1,0 +1,105 @@
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XLink - Link Your VMs, Ditch Public IPs</title>
+    <meta name="description" content="Save $3/VM/month by eliminating public IPs while maintaining secure access through Tailscale. Fast 2-minute setup with WireGuard encryption.">
+    <meta name="keywords" content="tailscale, vm, public ip, cost savings, wireguard, vpn, cloud, server">
+    <meta name="author" content="AsimAiCoder">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://xasim.me/xlink/">
+    <meta property="og:title" content="XLink - Link Your VMs, Ditch Public IPs">
+    <meta property="og:description" content="Save $3/VM/month by eliminating public IPs while maintaining secure access through Tailscale.">
+    <meta property="og:image" content="https://xasim.me/xlink/assets/logo.svg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://xasim.me/xlink/">
+    <meta property="twitter:title" content="XLink - Link Your VMs, Ditch Public IPs">
+    <meta property="twitter:description" content="Save $3/VM/month by eliminating public IPs while maintaining secure access through Tailscale.">
+    <meta property="twitter:image" content="https://xasim.me/xlink/assets/logo.svg">
+    
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🚀 XLink</h1>
+            <p>Link Your VMs, Ditch Public IPs</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Save $3/VM/month by eliminating public IPs</h2>
+            <p>Secure access through Tailscale while cutting costs</p>
+            <div class="install-box">
+                <h3>One-Line Install</h3>
+                <code>curl -fsSL https://xasim.me/xlink/public/xlink.sh | sudo bash</code>
+                <button onclick="copyInstall()">Copy</button>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2>✨ Features</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <h3>💰 Save Money</h3>
+                    <p>Eliminate $3/VM/month public IP costs</p>
+                </div>
+                <div class="feature">
+                    <h3>🔒 Secure</h3>
+                    <p>WireGuard-based encryption</p>
+                </div>
+                <div class="feature">
+                    <h3>⚡ Fast Setup</h3>
+                    <p>2-minute installation</p>
+                </div>
+                <div class="feature">
+                    <h3>🎨 Beautiful UI</h3>
+                    <p>Modern, responsive design</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="savings">
+            <h2>📊 Cost Savings</h2>
+            <table>
+                <tr>
+                    <th>Setup</th>
+                    <th>Monthly Cost</th>
+                    <th>Annual Cost</th>
+                </tr>
+                <tr>
+                    <td>With Public IP</td>
+                    <td>$7</td>
+                    <td>$84</td>
+                </tr>
+                <tr class="highlight">
+                    <td>With XLink</td>
+                    <td>$4</td>
+                    <td>$48</td>
+                </tr>
+                <tr class="savings-row">
+                    <td><strong>Savings</strong></td>
+                    <td><strong>$3</strong></td>
+                    <td><strong>$36</strong></td>
+                </tr>
+            </table>
+            <p class="big-savings">For 100 VMs: <strong>Save $3,600/year!</strong></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Made by <a href="https://github.com/AsimAiCoder">AsimAiCoder</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
