@@ -5,7 +5,7 @@
 Save $3/VM/month by eliminating public IPs while maintaining secure access through Tailscale.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![GitHub Pages](https://img.shields.io/badge/demo-live-success)](https://asimaicoder.github.io/xlink)
+[![GitHub Pages](https://img.shields.io/badge/demo-live-success)](https://xasim.me/xlink)
 
 ---
 
@@ -25,14 +25,14 @@ Save $3/VM/month by eliminating public IPs while maintaining secure access throu
 ### One-Line Install
 
 ```bash
-curl -fsSL https://asimaicoder.github.io/xlink/public/xlink.sh | sudo bash
+curl -fsSL https://xasim.me/xlink/public/xlink.sh | sudo bash
 ```
 
 ### Manual Install
 
 ```bash
 # Download script
-wget https://asimaicoder.github.io/xlink/public/xlink.sh
+wget https://xasim.me/xlink/public/xlink.sh
 
 # Make executable
 chmod +x xlink.sh
